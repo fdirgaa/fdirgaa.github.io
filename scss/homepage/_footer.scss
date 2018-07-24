@@ -1,0 +1,51 @@
+.footer{
+    height: 200px;
+    width: 100%;
+    color:white;
+    background-color: $biruGelap;
+    vertical-align: middle;
+    .nama-web{
+        float: left;
+        text-align:center;
+        padding: 59px 20px 50px 50px;
+        font-size:1.6em;
+        line-height: 30px;
+        span{
+            font-size: 1.3rem;
+            color:white;
+            padding:0px 20px;
+            background-color: $merah;
+            border-radius: 5px;
+        }
+    }
+    .nav-bottom{
+        line-height: 200px;
+        float: left;
+        ul.menu{
+            font-size: 1.6rem;
+            a{
+                color:white;
+                li{
+                    list-style-type:none;
+                    display:inline-block;
+                    margin:auto 10px;
+                }
+            }
+        }
+    }
+    .social-media{
+        float:right;
+        margin:50px 50px;
+        .sosmed-title{
+            font-size:1.5rem;
+            padding-left:10px;
+        }
+        .sosmed-icon{
+            margin:10px;
+            
+            img{
+                padding:0px 15px;
+            }
+        }
+    }
+}

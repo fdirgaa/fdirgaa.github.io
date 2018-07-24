@@ -1,0 +1,43 @@
+.order-section{
+    width: 100%;
+    text-align: center;
+    background-image: url("../img/order-bg.jpg");
+    background-repeat: no-repear;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 10px 0 30px;
+    font-family: $fontGlobal;
+    .section-judul{
+        color:white;
+    }
+}
+.form-group{
+    max-width: 700px;
+    display: grid;
+    grid-template-columns: auto;
+    margin: 0px auto;
+        .input-group{
+            margin:5px 10px;
+            .input-append{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+            .form-control{
+                width: 100%;
+                padding:10px 0px 10px 20px;
+                font-family: $fontGlobal;
+            }
+            textarea.form-control{
+                resize: none;
+                height: 200px;
+               
+            }
+            select.form-control{
+                width: 103.2%;
+            }
+        }
+        .btn{
+            margin-top: 10px;
+        }
+}
